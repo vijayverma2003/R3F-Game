@@ -230,7 +230,7 @@ function Bounds({ length = 1 }): JSX.Element {
 }
 
 export function Level({
-  count = 3,
+  count = 10,
   types = [BlockSpinner, BlockLimbo, BlockAxe],
 }): JSX.Element {
   const blocks = useMemo(() => {
