@@ -195,7 +195,7 @@ export function BlockAxe({
   );
 }
 
-function Bounds({ length = 1 }) {
+function Bounds({ length = 1 }): JSX.Element {
   return (
     <RigidBody type="fixed" restitution={0.2} friction={0}>
       <mesh
